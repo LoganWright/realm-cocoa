@@ -19,6 +19,5 @@
 #import <Realm/RLMArray.h>
 
 @interface RLMArray ()
-- (instancetype)initWithObjectClassName:(NSString *)objectClassName;
 - (NSString *)descriptionWithMaxDepth:(NSUInteger)depth;
 @end

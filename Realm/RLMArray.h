@@ -36,6 +36,9 @@
 
 @interface RLMArray : NSObject<RLMCollection, NSFastEnumeration>
 
+
+- (instancetype)initWithObjectClassName:(NSString *)objectClassName;
+
 /**---------------------------------------------------------------------------------------
  *  @name RLMArray Properties
  *  ---------------------------------------------------------------------------------------
